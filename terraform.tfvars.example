@@ -1,0 +1,5 @@
+# example environment variables
+az_client_secret      = "xxxxxxxxxxxx"
+az_client_id          = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+az_subscription_id    = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+az_tenant_id          = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
