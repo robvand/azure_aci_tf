@@ -17,7 +17,7 @@ resource "azurerm_kubernetes_cluster" "aks1" {
   location            = var.az_location
   resource_group_name = azurerm_resource_group.az_aks_rg1.name
   dns_prefix          = "${var.az_prefix}-aks1"
-  kubernetes_version  = "1.20.9"
+  kubernetes_version  = "1.23.3"
   network_profile {
     network_plugin     = "azure"
     network_policy     = "calico"
